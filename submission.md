@@ -3,46 +3,31 @@
 
 ## Wedge Project
 
-<!-- Any general commentary you'd like to say about the project --> 
+
 
 ### Task 1
 
 * Files for this task: 
-<!--  List of file or files here  --> 
 
-Loads all data into GBQ data set.
+Wedge_Data_Eng_Task1.ipynb:
 
-`File1 Name`: 
-Description of what this file does.
-
-<!--  Repeat for each file  --> 
-
-
+This notebook unzips, formats, and cleans the Wedge transaction data files and then uploads them to Google BigQuery.
 
 ### Task 2
 
 * Files for this task: 
-<!--  List of file or files here  --> 
 
-Loads all data into GBQ data set.
+Wedge_Data_Eng_Task2.ipynb:
 
-`File1 Name`: 
-Description of what this file does.
-
-<!--  Repeat for each file  --> 
-	
+This notebook uses the cleaned and uploaded data to generate a sample of owners and their transactions and writes it to csv within the main directory.
 
 ### Task 3
 
 * Files for this task: 
-<!--  List of file or files here  --> 
 
-Loads all data into GBQ data set.
+Wedge_Data_Eng_Task3.ipynb:
 
-`File1 Name`: 
-Description of what this file does.
-
-<!--  Repeat for each file  --> 
+This notebook queries the uploaded data to gather a collection of summary tables and uses them to build a db. database file. 
 
 
 ## Query Comparison Results
@@ -84,3 +69,4 @@ When calculating relative difference, use the formula
 ## Reflections
 
 <!-- I'd love to get 100-200 words on your experience doing the Wedge Project --> 
+What a challenge this project was! Getting through the code was an adventure, but the satisfaction of finally building all this python code that works exactly as it should was a uniquely satisfying moment (especially with no prior experience with the language). This project made me confident that my personality is configured correctly for this kind of work.
